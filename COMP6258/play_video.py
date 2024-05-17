@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-video_frames_path = '/Users/aahd/Library/CloudStorage/OneDrive-UniversityofSouthampton/year_4/Deep Learning/cw/DL_MindVideo/wen_2018/video_test_256_3hz.npy'
+video_frames_path = '/wen_2018/video_test_256_3hz.npy'
 video_frames = np.load(video_frames_path)
 
 print("Shape of video frames:", video_frames.shape)
